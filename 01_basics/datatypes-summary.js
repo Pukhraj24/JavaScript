@@ -36,3 +36,27 @@ const myFunc = function(){
 console.log(typeof bigNumber);
 console.log(typeof Temp);
 
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ****************************
+
+//Stack(Primitive) and Heap(Non primitive)
+//In stack we get a copy and in Heap we directly change on original value
+
+let myYTname ="Pukhraj"
+
+let anothername=myYTname
+anothername="cc"
+
+console.log(anothername);
+
+let user1={
+    email: "hjd",
+    upi: "udj"
+}
+
+let user2 = user1
+
+user2.email="ehdjgc"
+
+console.log(user1.email);
