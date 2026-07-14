@@ -5,7 +5,7 @@ let score = "hitesh"
 
 let valueInNumber = Number(score)
 //console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+//console.log(valueInNumber); null becomes 0
 
 
 // "33" => 33
