@@ -62,8 +62,8 @@ const course = {
 }
 
 // course.courseInstructor
-
-const {courseInstructor: instructor} = course
+//syntax const {key : shortname} =  object
+const {courseInstructor: instructor} = course 
 
 // console.log(courseInstructor);
 console.log(instructor);
